@@ -1,5 +1,15 @@
 import java.util.Scanner;
 
+class Node{
+	int data;
+	Node next,prev;
+	public Node(int item){
+		data = item;
+		next = null;
+		prev = null;
+	}
+}
+
 public class backward {
 	private Node head;
 
