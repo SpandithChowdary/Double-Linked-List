@@ -1,5 +1,3 @@
-package DLL_Traverse;
-
 import java.util.Scanner;
 
 class Node{
