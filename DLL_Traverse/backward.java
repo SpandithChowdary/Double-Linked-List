@@ -1,5 +1,3 @@
-package DLL_Traverse;
-
 import java.util.Scanner;
 
 public class backward {
@@ -20,7 +18,7 @@ public class backward {
 	}
 
 
-	public void traverseforward() {
+	public void traversebackward() {
 		Node temp = head;
 		while(temp.next!=null) {
 			temp = temp.next;
@@ -43,7 +41,7 @@ public class backward {
 			int m = sc.nextInt();
 			DL.insert(m);
 		}
-		DL.traverseforward();
+		DL.traversebackward();
 		sc.close();
 
 	}
