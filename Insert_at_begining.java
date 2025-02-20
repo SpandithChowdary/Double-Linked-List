@@ -30,6 +30,7 @@ public class Insert_at_begining {
 	private Node insertatbegining(int data) {
 		Node newnode = new Node(data);
 		newnode.next = head;
+		head.prev = newnode;
 		head = newnode;
 		head.prev=null;
 		return head;
